@@ -1,0 +1,15 @@
+QT.jsonserializer.VERSION = 4.0.3
+QT.jsonserializer.name = QtJsonSerializer
+QT.jsonserializer.module = Qt5JsonSerializer
+QT.jsonserializer.libs = $$QT_MODULE_LIB_BASE
+QT.jsonserializer.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtJsonSerializer
+QT.jsonserializer.frameworks =
+QT.jsonserializer.bins = $$QT_MODULE_BIN_BASE
+QT.jsonserializer.depends = core
+QT.jsonserializer.uses =
+QT.jsonserializer.module_config = v2
+QT.jsonserializer.DEFINES = QT_JSONSERIALIZER_LIB
+QT.jsonserializer.enabled_features =
+QT.jsonserializer.disabled_features =
+QT_CONFIG +=
+QT_MODULES += jsonserializer

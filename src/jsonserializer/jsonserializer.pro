@@ -1,6 +1,10 @@
 TARGET = QtJsonSerializer
+TEMPLATE = lib
+CONFIG += dll
 
 QT = core core-private
+INCLUDEPATH += $$PWD/..
+DEFINES += QT_BUILD_JSONSERIALIZER_LIB
 
 HEADERS += \
 	cborserializer.h \

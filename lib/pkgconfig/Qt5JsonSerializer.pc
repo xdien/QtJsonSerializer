@@ -1,0 +1,13 @@
+prefix=D:/Qt/5.15.2/mingw81_32
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 JsonSerializer
+Description: Qt JsonSerializer module
+Version: 4.0.3
+Libs: -L${libdir} -lQt5JsonSerializer 
+Cflags: -DQT_JSONSERIALIZER_LIB -I${includedir}/QtJsonSerializer -I${includedir}
+Requires: Qt5Core
+

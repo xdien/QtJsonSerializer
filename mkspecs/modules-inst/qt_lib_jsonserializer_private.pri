@@ -1,0 +1,11 @@
+QT.jsonserializer_private.VERSION = 4.0.3
+QT.jsonserializer_private.name = QtJsonSerializer
+QT.jsonserializer_private.module =
+QT.jsonserializer_private.libs = $$QT_MODULE_LIB_BASE
+QT.jsonserializer_private.includes = $$QT_MODULE_INCLUDE_BASE/QtJsonSerializer/4.0.3 $$QT_MODULE_INCLUDE_BASE/QtJsonSerializer/4.0.3/QtJsonSerializer
+QT.jsonserializer_private.frameworks =
+QT.jsonserializer_private.depends = core_private jsonserializer
+QT.jsonserializer_private.uses =
+QT.jsonserializer_private.module_config = v2 internal_module
+QT.jsonserializer_private.enabled_features =
+QT.jsonserializer_private.disabled_features =
